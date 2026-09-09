@@ -1,0 +1,119 @@
+*{
+    padding: 2;
+    margin: 2;
+}
+body {
+    background-color: rgb(59, 2, 2);
+    color: rgb(53, 2, 2);
+    cursor: url('seta.png') 0 0, auto;
+}
+
+.formacao-cabecalho,
+.formacao-educacao,
+.formacao-academica,
+.container-inicio,
+.container-habilidades {
+    width: 60%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 15px 15px; 
+    color: rgb(53, 2, 2);
+    box-sizing: border-box;
+}
+
+.formacao-cabecalho,
+.container-inicio,
+.container-habilidades {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.formacao-academica,
+.container-inicio,
+.container-habilidades {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.2rem; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2, .titulo-topico {
+    font-size: 1.6rem; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p, .texto-topico {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.formacao-academica ul,
+.container-habilidades ul,
+.topico ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style-type: square;
+    list-style-position: outside; 
+    padding-left: 20px;        
+    margin: 15px 0;
+    width: 100%;
+}
+
+.formacao-academica li,
+.container-habilidades li,
+.topico li {
+    font-size: 1.05rem;  
+    text-align: left;    
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.tracinho {
+    width: 100%;
+    background-color: rgb(53, 2, 2);
+    height: 2px;
+    border: none;
+    margin: 20px 0;
+}
+
+.menu-superior {
+    display: flex;
+    justify-content: center;
+}
+
+.list-nav {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.list-nav a {
+    text-align: center;
+    display: block;
+    padding: 18px 24px;
+    color: rgb(255, 252, 248); 
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+    cursor: url('maozinha.png') 0 0, pointer;
+    outline: none; 
+}
